@@ -4,7 +4,7 @@ public class RollDice
 {
     public static int[] DiceRoll(int nRolls)
     {
-        int[] rollCounts = new int[12];
+        int[] rollCounts = new int[11];
         
         // Initialize random number generator
         Random rand = new Random();

@@ -8,7 +8,6 @@ internal class Program
     {
         Console.Write("Welcome to the dice throwing simulator!\n\nHow many dice rolls would you like to simulate? ");
         int nRolls = int.Parse(Console.ReadLine());
-        Console.WriteLine(nRolls);
         
         // Create an array to store the frequency of each dice roll (2 through 12)
         int[] rollCounts = RollDice.DiceRoll(nRolls);
